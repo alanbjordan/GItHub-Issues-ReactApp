@@ -1,5 +1,5 @@
-
-
+## Landing Page Render
+![Image description](https://github.com/alanbjordan/GItHub-Issues-ReactApp/blob/master/issues.png)
 ## Available Scripts
 
 In the project directory, you can run:
