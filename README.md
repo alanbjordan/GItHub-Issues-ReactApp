@@ -1,6 +1,5 @@
 
-
-![Final Render of Issues Cards]('./public/issues.png')
+![Final Render of Issues Cards](https://github.com/alanbjordan/GItHub-Issues-ReactApp/blob/master/src/logo.svg)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
