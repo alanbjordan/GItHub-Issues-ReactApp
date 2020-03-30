@@ -7,10 +7,14 @@ const Issue = (props) => {
     return (
         <div className="issueBody">
             <h3>Issue:</h3>
+            {/* <hr /> */}
             <div className="props">
                 {props.issue.title}
             </div>
-            <p><a href={props.issue.html_url}>Issue Link</a></p>
+
+            <h3><a href={props.issue.html_url}>Issue Link</a></h3>
+            <hr />            
+            <div className="text">{props.issue.body}</div>
         </div>
     )
 }
