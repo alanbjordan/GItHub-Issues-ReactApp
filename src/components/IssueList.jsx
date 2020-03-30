@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Issue from './Issue';
+import './issue.css';
 
 class IssueList extends Component {
     constructor(props) {
@@ -25,11 +26,14 @@ class IssueList extends Component {
         const { issues } = this.state;
     
         return (
-          <ul>
-            {issues.map(issue => (
-              <Issue key={issue.id} issue={issue} />
-            ))}
-          </ul>
+            <div className="allIssues">
+                <ul>
+                {issues.map(value => (
+                    <Issue key={value.id} issue={value} />
+                ))}
+                </ul>                
+            </div>
+
         );
       }
     }
