@@ -6,8 +6,9 @@ function App() {
 
   return (
     <div className="App">
+      <h1>2020 List of GitHub Issues</h1>      
         <IssueList/>
-      <p>hello world</p>
+
     </div>
   );
 }
