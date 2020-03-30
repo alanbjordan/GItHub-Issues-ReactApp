@@ -1,4 +1,12 @@
-## GitHub Issues Page Render
+## GitHub Issues
+
+In the project directory, you should run:
+
+### `npm i`
+
+Downloads the node modules needed to run the app.
+
+## Page Render
 ![Image description](https://github.com/alanbjordan/GItHub-Issues-ReactApp/blob/master/issues.png)
 ## Available Scripts
 
