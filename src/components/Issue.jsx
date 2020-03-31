@@ -5,7 +5,7 @@ class Issue extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            issues: [],
+            issues: []
         };
     }
 
