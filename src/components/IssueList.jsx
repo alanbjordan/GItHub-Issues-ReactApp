@@ -26,19 +26,22 @@ class IssueList extends Component {
         const { issues } = this.state;
 
         return (
-          <ul>
-            {issues.map(issue => (
-              <div key={issue.id} className="issueBg">
-                <h1>Isssue Title: </h1>
-                {issue.title}
-                <br></br>
-                <Link 
-                to={`/issue/${issue.number}`}>
-                  <button>See More Details</button>
-                </Link>
-              </div>
-            ))}
-          </ul>
+          <div>
+            {/* <div className="listHeader">Hello</div> */}
+            <ul>
+              {issues.map(issue => (
+                <div key={issue.id} className="issueBg">
+                  <h1>Isssue</h1>
+                  {issue.title}
+                  <br></br>
+                  <Link 
+                  to={`/issue/${issue.number}`}>
+                    <button>See More Details</button>
+                  </Link>
+                </div>
+              ))}
+            </ul>
+          </div>
         );
       }
     }
