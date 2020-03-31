@@ -1,0 +1,12 @@
+.issueBg {
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 10px;
+    background-color: rgb(208, 206, 208);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(26, 26, 26);
+}
+
+a {
+    color: green;
+}
