@@ -33,9 +33,9 @@ class IssueList extends Component {
                 {issue.title}
                 <br></br>
                 <Link 
-                issue={issues}
+                // issue={issues}
                 to={`/issue/${issue.number}`}>
-                  See More Details
+                  <button>See More Details</button>
                 </Link>
               </div>
               // <Link to={`/issue/${issue.number}`}/>
