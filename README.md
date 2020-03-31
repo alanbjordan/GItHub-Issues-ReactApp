@@ -6,8 +6,15 @@ In the project directory, you should run:
 
 Downloads the node modules needed to run the app.
 
-## Page Render
+## Initial List Page Render
 ![Image description](https://github.com/alanbjordan/GItHub-Issues-ReactApp/blob/master/issues.png)
+
+## Refactored List Page Render
+![Image description](https://github.com/alanbjordan/GItHub-Issues-ReactApp/blob/master/issuelist.png)
+
+## Issue Page Render
+![Image description](https://github.com/alanbjordan/GItHub-Issues-ReactApp/blob/router/issuepage.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
