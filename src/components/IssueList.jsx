@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Issue from './Issue';
+import {Link} from 'react-router-dom';
+import './issues.css';
 
 class IssueList extends Component {
     constructor(props) {
@@ -17,17 +18,28 @@ class IssueList extends Component {
                 this.setState({
                     issues: result
                 });
-                console.log(this.state);
+                // console.log(this.state);
             });
-
     }
+
     render() {
         const { issues } = this.state;
-    
+
         return (
           <ul>
             {issues.map(issue => (
-              <Issue key={issue.id} issue={issue} />
+              <div key={issue.id} className="issueBg">
+                <h1>Isssue Title: </h1>
+                {issue.title}
+                <br></br>
+                <Link 
+                issue={issues}
+                to={`/issue/${issue.number}`}>
+                  See More Details
+                </Link>
+              </div>
+              // <Link to={`/issue/${issue.number}`}/>
+              // <Issue key={issue.id} issue={issue} />
             ))}
           </ul>
         );
