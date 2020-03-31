@@ -27,9 +27,9 @@ class Issue extends Component {
         return (
             <div>
                 <div>
-                    <h3>{data.title}</h3>                    
+                    <h1 className="errorTitle"><span className="error">Error:</span> {data.title}</h1>                    
                 </div>
-                <div>
+                <div className="markDown">
                     <ReactMarkdown source={data.body} escapeHtml={false}/>                  
                 </div>
             </div>
